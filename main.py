@@ -13,7 +13,7 @@ def listener(messages):
             tb.send_message(chatid, 'Ваша заявка принята в предложку')
             tb.forward_message(admin_id, chatid, m.message_id)
         elif m.content_type == 'text':
-            tb.send_message(chatid,'Отправь мне фото/видео/гифку')
+            tb.send_message(chatid,'Привет! Отправь фото, гифку или видео и лучшие из них мы запостим!🙃')
 
 
 tb = telebot.TeleBot(TOKEN)
