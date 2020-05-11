@@ -1,7 +1,8 @@
 import telebot
 import time
 
-TOKEN = '1181751802:AAHsMV1DFfTUB6AOg420iB-hpysR50xCgg4'
+TOKEN = '1090606873:AAERQbEAAwhlPf4SqpT4wULrm5T7u5XKmWs
+'
 admin_id = 447360295
 
 
